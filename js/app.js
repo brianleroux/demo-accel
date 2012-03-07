@@ -11,8 +11,8 @@ document.addEventListener('deviceready', function(){
         y.innerHTML = 'y value is ' + ~~a.y
         z.innerHTML = 'z value is ' + ~~a.z
     
-        var horizontal = a.x
-        ,   vertical   = a.y
+        var horizontal = a.x*5
+        ,   vertical   = a.y*5
         ,   shadow     = horizontal + 'px ' + vertical + 'px 10px #888'
 
         x.style['-webkit-box-shadow'] = shadow
